@@ -4,7 +4,10 @@ git.txt
 db.sqlite3
 bboard.data
 *.pyc
+
+foodieblog/
 .idea/
+
 venv/
 .git/
 .vscode/
