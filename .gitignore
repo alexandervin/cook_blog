@@ -22,7 +22,7 @@ idea
 *.egg
 
 dist
-db.sqlite3
+
 
 venv
 
