@@ -54,6 +54,6 @@ class Comment(models.Model):
 
 
 
-
+#Todo: класс
 
 
