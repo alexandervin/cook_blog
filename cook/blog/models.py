@@ -17,7 +17,6 @@ class Category(MPTTModel):
         return self.name
 
 
-
 class Tag(models.Model):
     name = models.CharField(max_length=100)
     slug = models.SlugField(max_length=100)
@@ -45,6 +44,7 @@ class Recipe(models.Model):
     directions = models.TextField()
     post = models.ForeignKey(Post, related_name='recipe', on_delete=models.SET_NULL, null=True, blank=True)
 
+
 class Comment(models.Model):
     name = models.CharField(max_length=50)
     email = models.EmailField(max_length=100)
@@ -52,8 +52,4 @@ class Comment(models.Model):
     message = models.TextField(max_length=500)
     post = models.ForeignKey(Post, related_name='comment', on_delete=models.CASCADE)
 
-
-
-#Todo: класс
-
-
+# Todo: класс
