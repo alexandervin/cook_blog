@@ -52,4 +52,4 @@ class Comment(models.Model):
     message = models.TextField(max_length=500)
     post = models.ForeignKey(Post, related_name='comment', on_delete=models.CASCADE)
 
-# Todo: класс
+# Todo: gigit
